@@ -1,0 +1,19 @@
+.navbar-dark {
+    --bs-navbar-color: rgb(255 255 255);
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    font-weight: 400;
+}
+
+.h{
+    color:red;
+}
+.nav-item{
+    margin-left: 30px;
+}
+
+@media only screen and (max-width:500px){
+    #nav_t{
+        margin-bottom: 50px;
+        background-color: red;
+    }
+}
